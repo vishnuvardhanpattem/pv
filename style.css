@@ -24,31 +24,29 @@ h1{
 }
 h2{
   color: #66BFBF;
+  font-weight: bold;
   font-family: Montserrat;
-  line-height: 2;
-
 }
 h3{
   color: #66BFBF;
   font-family: Montserrat;
+  font-weight: bold;
 }
 p{
   margin: 0 auto;
   line-height: 2;
-
+}
+.interest{
+  width:40%;
+  text-align: justify;
+  l
 }
 hr{
-  border: 5px dotted #EEF6F6 ;
+  border: 8px dotted #EEF6F6 ;
   border-bottom: none;
-  margin: 80px auto;
+  margin: 50px auto;
   width:7%;
 
-}
-.skills{
-  text-align: center;
-  padding: 50px 0px 100px;
-  font-family: Montserrat;
-  line-height: 2;
 }
 .profile{
   margin: 50px auto;
@@ -60,41 +58,25 @@ padding-top: 25px;
 background: #FFFBE7;
 margin-top: 50px;
 }
-.skills_row{
-  width:50%;
-  margin: 0px auto;
-  background: #FFFBE7;
-  text-align: left;
-  font-family: Montserrat;
-  line-height: 2;
+.skills{
+  margin-top: 80px;
+  margin-bottom: 80px;
+
 }
 .computer{
-  width:25%;
-  border-radius: 50%;
-  float: left;
-  margin-right: 30px;
-}
+  width: 150px;
+  height:450px;
+  border-radius: 100px;
 
+}
 .chillies{
   width: 150px;
   height:150px;
   float:right;
-  margin-left: 30px;
+  position:relative;
+  bottom: 95px;
+  right: 200px;
 
-}
-.hor{
-  padding: 0 20px;
-}
-.contact{
-  line-height: 3;
-}
-.interest{
-  width:40%;
-  margin: 35px auto;
-}
-.bottom_container{
-  background-color: #66BFBF;
-  padding: 55px 0;
 }
 a{
   font-family: Montserrat;
@@ -110,6 +92,10 @@ a:hover{
   font-size: 12px;
   font-family: Montserrat;
   padding: 45px 0px 0px 20px;
+}
+.bottom_container{
+  background-color: #66BFBF;
+  padding: 55px 0;
 }
 .btn{
   margin:35px 0;

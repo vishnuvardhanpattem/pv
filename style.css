@@ -78,3 +78,31 @@ margin-top: 50px;
   right: 200px;
 
 }
+}
+a{
+  font-family: Montserrat;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #11999E;
+}
+a:hover{
+  color: #EAF6F6
+}
+.copy{
+  color:#EAF6F6;
+  font-size: 12px;
+  font-family: Montserrat;
+  padding: 45px 0px 0px 20px;
+}
+.btn{
+  margin:35px 0;
+  padding: 6px 9px;
+  background: linear-gradient(#11cdd4,#11999E);
+  font-family: Montserrat;
+  border:none;
+  border-radius: 6px;
+  color: #EAF6F6;
+}
+.btn:hover{
+  background: linear-gradient(#30e3cb,#2bc4ad);
+}
